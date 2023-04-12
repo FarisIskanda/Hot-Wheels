@@ -1,23 +1,6 @@
 <html>
   <head>
     <title>Site maintenance</title>
-    <meta name="robots" content="noindex"/> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <style> 
-     body { text-align: center; padding: 10px; font: 20px Helvetica, sans-serif; color: grey; } 
-      @media (min-width: 768px){ 
-        body{ padding-top: 150px; } 
-      } 
-        body{
-          background-color:lightpink;
-          background-size: cover;
-        }
-      h1 { font-size: 50px; } 
-      article { display: block; text-align: left; max-width: 650px; margin: 0 auto; } 
-      a { color:deeppink; text-decoration: none; } 
-      a:hover { color:red; text-decoration: none; } 
-      
-    </style>
   </head>
    <body>
     <article>
