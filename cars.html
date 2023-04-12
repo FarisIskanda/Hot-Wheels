@@ -1,28 +1,10 @@
-<a href="cars.php">CARS</a>
+<a href="index.php">CARS</a>
 <table border="2">
     <tr>
         <th>JDM CAR</th>
         <th>MUSCLE CAR</th>
         <th>COMPACT EXECUTIVE CAR</th>
     </tr>
-
-<?php 
-    include("config.php");
-
-    $query=mysqli_query($sambungan,"SELECT * FROM cars");
-    if(mysqli_num_rows($query)>0){
-        while($row=mysqli_fetch_assoc($query)){
-            ?>
-            <tr>
-                <td><?php echo $row['JDM Car'];?></td>
-                <td><?php echo $row['Muscle Car'];?></td>
-                <td><?php echo $row['Compact Executive Car'];?></td>
-            </tr>  
-            <?php
-        }
-    }
-?>
-
 </table>
 <style>
     th {
