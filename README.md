@@ -1,6 +1,5 @@
 <html>
   <head>
-    <title>Site maintenance</title>
   </head>
    <body>
     <article>
